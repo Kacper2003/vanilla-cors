@@ -10,6 +10,7 @@ export default function Home() {
                     headers: {
                         'Content-Type': 'application/json',
                         'Accept': 'application/json',
+                        'Authorization': 'https://vanilla-cors.vercel.app/',
                         'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app/',
                         'Access-Control-Request-Headers': 'origin',
                         'Access-Control-Allow-Method': 'POST, GET, OPTIONS, DELETE',

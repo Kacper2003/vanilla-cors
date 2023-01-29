@@ -6,7 +6,7 @@ export default function Home() {
             const res = await fetch(
                 'https://157.97.1.155:9004/v1/login',
                 {
-                    method: 'OPTIONS',
+                    method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                         'Accept': 'application/json',
@@ -14,7 +14,7 @@ export default function Home() {
                         'Access-Allow-Credential': 'true',
                         'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app/',
                         'Access-Control-Request-Headers': 'origin',
-                        'Access-Control-Request-Method': 'OPTIONS',
+                        'Access-Control-Request-Method': 'POST',
                     },
                     body: {
                         'userid': 'Kacper',

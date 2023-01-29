@@ -11,7 +11,7 @@ export default function Home() {
                         'Content-Type': 'application/json',
                         'Accept': 'application/json',
                         'Access-Allow-Credential': 'true',
-                        'Access-Control-Allow-Origin': '*',
+                        'Allow-Access-Control-Origin': '*',
                         'Access-Control-Request-Headers': 'origin',
                         'Access-Control-Request-Method': 'OPTIONS',
                     },

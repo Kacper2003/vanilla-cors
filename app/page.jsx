@@ -4,13 +4,12 @@ export default function Home() {
     const callAPI = async () => {
         try {
             const res = await fetch(
-                'http://157.97.1.155:9004/v1/login',
+                'https://157.97.1.155:9004/v1/login',
                 {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                         'Accept': 'application/json',
-                        'Authorization': 'Basic',
                         'Access-Allow-Credential': 'true',
                         'Access-Control-Allow-Origin': '*',
                         'Access-Control-Request-Headers': 'origin',

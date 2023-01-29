@@ -12,6 +12,8 @@ export default function Home() {
                         'Accept': 'application/json',
                         'Access-Allow-Credential': 'true',
                         'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app/',
+                        'Access-Control-Allow-Origin': 'https://vanilla-cors-kacper2003.vercel.app/',
+                        'Access-Control-Allow-Origin': 'https://vanilla-cors-git-main-kacper2003.vercel.app/',
                         'Access-Control-Request-Headers': 'origin',
                         'Access-Control-Request-Method': 'OPTIONS',
                     },

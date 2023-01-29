@@ -24,8 +24,8 @@ export default function Home() {
         }
     };
     return (
-        <div className={styles.container}>
-            <main className={styles.main}>
+        <div>
+            <main>
                 <button onClick={callAPI}>Make API call</button>
             </main>
         </div>

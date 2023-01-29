@@ -14,7 +14,7 @@ export default function Home() {
                         'Access-Allow-Credential': 'true',
                         'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app/',
                         'Access-Control-Request-Headers': 'origin',
-                        'Access-Control-Allow-Method': 'POST, GET, OPTIONS, DELETE',
+                        'Access-Control-Request-Method': 'POST',
                     },
                     body: {
                         'userid': 'Kacper',

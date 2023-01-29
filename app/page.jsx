@@ -13,7 +13,7 @@ export default function Home() {
                         'Access-Allow-Credential': 'true',
                         'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app/',
                         'Access-Control-Request-Headers': 'origin',
-                        'Access-Control-Request-Method': 'OPTIONS',
+                        //'Access-Control-Request-Method': 'OPTIONS',
                         'Access-Control-Request-Method': 'POST'
                     },
                     body: {

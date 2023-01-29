@@ -11,6 +11,7 @@ export default function Home() {
                         'Content-Type': 'application/json',
                         'Accept': 'application/json',
                         'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app/',
+                        'Access-Control-Request-Headers': 'origin',
                         'Access-Control-Allow-Method': 'POST, GET, OPTIONS, DELETE',
                     },
                     body: {

@@ -12,7 +12,7 @@ export default function Home() {
                         'Accept': 'application/json',
                         'Authorization': 'Basic',
                         'Access-Allow-Credential': 'true',
-                        'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app/',
+                        'Access-Control-Allow-Origin': '*',
                         'Access-Control-Request-Headers': 'origin',
                         'Access-Control-Request-Method': 'OPTIONS',
                     },

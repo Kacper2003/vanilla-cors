@@ -7,16 +7,12 @@ export default function Home() {
                 'https://157.97.1.155:9004/v1/login',
                 {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json',
-                        'Access-Allow-Credential': 'true',
-                        'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app/',
-                        'Access-Control-Allow-Origin': 'https://vanilla-cors-kacper2003.vercel.app/',
-                        'Access-Control-Allow-Origin': 'https://vanilla-cors-git-main-kacper2003.vercel.app/',
-                        'Access-Control-Request-Headers': 'origin',
-                        'Access-Control-Request-Method': 'OPTIONS',
-                    },
+                    headers: [
+                      { key: "Access-Control-Allow-Credentials", value: "true" },
+                      { key: "Access-Control-Allow-Origin", value: "*" },
+                      { key: "Access-Control-Allow-Methods", value: "GET,OPTIONS,PATCH,DELETE,POST,PUT" },
+                      { key: "Access-Control-Allow-Headers", value: "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version" },
+                    ],
                     body: {
                         'userid': 'Kacper',
                         'password': '1234',

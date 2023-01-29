@@ -1,0 +1,2 @@
+# vanilla-cors
+Vanilla CORS

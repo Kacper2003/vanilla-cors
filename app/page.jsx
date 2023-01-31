@@ -10,7 +10,7 @@ export default function Home() {
                     mode: 'cors',
                     headers: {
                         'origin': 'https://vanilla-cors.vercel.app',
-                        'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app',
+                        'Access-Control-Allow-Origin': 'https://157.97.1.155:9004/v1/login',
                     },
                     body: {
                         'userid': 'Kacper',

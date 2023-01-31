@@ -8,7 +8,7 @@ export default function Home() {
                 {
                     method: 'POST',
                     headers: {
-                        'Access-Control-Allow-Origin': 'https://vanilla-cors.vercel.app'
+                        'Origin': 'https://vanilla-cors.vercel.app'
                     },
                     body: {
                         'userid': 'Kacper',

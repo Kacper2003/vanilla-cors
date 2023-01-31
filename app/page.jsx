@@ -4,11 +4,17 @@ export default function Home() {
     const callAPI = async () => {
         try {
             const res = await fetch(
-                'https://157.97.1.155:9004/v1/license',
+                'https://157.97.1.155:9004/v1/login',
                 {
-                    method: 'GET',
+                    method: 'POST',
+                    mode: 'cors',
                     headers: {
                         'origin': 'https://vanilla-cors.vercel.app'
+                    },
+                    body: {
+                        'userid': 'Kacper',
+                        'password': '1234',
+                        'usertype': 1
                     }
                 }
             );

@@ -6,10 +6,14 @@ export default function Home() {
             const res = await fetch(
                 'https://157.97.1.155:9004/v1/api',
                 {
-                    method: 'GET',
-                    mode: 'cors',
+                    method: 'POST',
                     headers: {
                         'origin': 'https://vanilla-cors.vercel.app'
+                    },
+                    body: {
+                        'userid': 'Kacper',
+                        'password': '1234',
+                        'usertype': 1
                     }
                 }
             );

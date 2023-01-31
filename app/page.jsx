@@ -6,7 +6,7 @@ export default function Home() {
             const res = await fetch(
                 'https://157.97.1.155:9004/v1/api',
                 {
-                    method: 'POST',
+                    method: 'GET',
                     mode: 'cors',
                     headers: {
                         'origin': 'https://vanilla-cors.vercel.app'
